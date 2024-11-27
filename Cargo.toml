@@ -1,0 +1,13 @@
+[package]
+name = "droidcam-virtual"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.24"           # For basic image processing
+egui = "0.24"           # For GUI
+eframe = "0.24"         # egui framework
+reqwest = { version = "0.11", features = ["stream"] }  # For HTTP requests with blocking feature
+tokio = { version = "1", features = ["full"] } # Async runtime
+anyhow = "1.0"          # Error handling
+futures-util = "0.3"

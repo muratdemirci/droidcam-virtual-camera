@@ -1,0 +1,58 @@
+# Rust build directory
+/target/
+
+# Rust generated files
+**/*.rs.bk
+Cargo.lock
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - IntelliJ/CLion
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - RustRover
+.rustover/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Debug files
+*.pdb
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log
+
+# Binary files that might be generated
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Backup files
+*.bak
+*.swp
+*.swo
